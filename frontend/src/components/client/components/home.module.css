@@ -1,0 +1,29 @@
+.container{
+    background-color: #f6f5f7;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+.title_container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.add__button{
+    position: absolute!important;
+    z-index: 1!important;
+    top: 9%!important;
+    background-color: rgb(255, 255, 255)!important;
+    right: 2%!important;
+}
+.grid{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+@media only screen and (max-width: 600px) {
+    .grid{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+}

@@ -1,0 +1,38 @@
+.header_container{
+    max-width: 100vw;
+    height: 10vh;
+    background-color: #eeedef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.logo_container{
+    text-decoration: none;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12%;
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .actions{
+        justify-content: space-between;
+        width: 50%!important;
+        margin-right: 1rem;
+    }
+    .logo_container{
+        text-decoration: none;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+    }
+}

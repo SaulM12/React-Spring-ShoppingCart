@@ -1,0 +1,84 @@
+.container {
+    background-color: #f6f5f7;
+    min-height: 90vh;
+    max-width: 100vw;
+}
+
+.img_container {
+    width: 100%;
+    background-color: #d7e8fc;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.img {
+    height: 230px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.stack {
+    padding-left: 3rem;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.amount_input {
+    width: 6rem;
+    background-color: rgb(236, 236, 236);
+    padding: 0;
+    border-radius: 5%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.related_grid {
+    width: 100%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: flex-start!important;
+}
+
+.related_container {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.chip {
+    width: 50% !important;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem !important;
+    padding: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .stack {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .chip {
+        width: 80% !important;
+    }
+    .related_container {
+        width: 80%!important;
+    }
+}
